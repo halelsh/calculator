@@ -27,12 +27,12 @@ export const constantRouterMap = [
   {
     path: '/',
     component: Layout,
-    redirect: '/dashboard',
-    name: 'Dashboard',
+    redirect: '/calc',
+    name: 'Calc',
     hidden: true,
     children: [{
-      path: 'dashboard',
-      component: () => import('@/views/dashboard/index')
+      path: 'calc',
+      component: () => import('@/views/calc/index')
     }]
   },
   {
