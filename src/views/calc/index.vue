@@ -57,7 +57,7 @@
 </template>
 
 <script>
-  import historyView from "./historyVIew"
+import historyView from "./historyVIew"
 export default {
   components:{
     historyView
