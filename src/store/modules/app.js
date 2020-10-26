@@ -25,6 +25,9 @@ const app = {
     },
     TOGGLE_DEVICE: (state, device) => {
       state.device = device
+    },
+    GET_APP_DATA(){
+      //Implement get App Data
     }
   },
   actions: {
