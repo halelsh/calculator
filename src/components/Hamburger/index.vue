@@ -29,6 +29,9 @@
 <script>
 export default {
   name: 'Hamburger',
+  created(){
+    console.log("haburger created..","isActive",isActive)
+  },
   props: {
     isActive: {
       type: Boolean,
@@ -37,7 +40,8 @@ export default {
     toggleClick: {
       type: Function,
       default: null
-    }
+    },
+    
   }
 }
 </script>
