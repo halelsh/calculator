@@ -15,6 +15,7 @@
         props:["historyValues"],
         methods:{
           historyClicked(h){
+            console.log("historyClicked",h)
             this.$emit('historyClicked',h.stat)
           }
         }
